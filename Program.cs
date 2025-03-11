@@ -1,7 +1,7 @@
 ﻿int Rate = 25000;
-int VND;
-int USD;
+float VND;
+float USD;
 Console.WriteLine("So tien USD can quy doi : ");
-USD = int.Parse(Console.ReadLine());
+USD = float.Parse(Console.ReadLine());
 VND = USD * Rate;
 Console.WriteLine("So tien VND tuong ung : " + VND + " dong ");
